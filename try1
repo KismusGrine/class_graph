@@ -6,9 +6,12 @@ using namespace std;
 
 class Graph {
 vector<list<int» Vertex;
-int v;
-int e;
 
+// Количество вершин и ребер/дуг
+int count_vertex;
+int count_edge;
+
+// Конструкторы
 public:
 Graph();
 Graph(int num);
@@ -31,7 +34,7 @@ Vertex.push_back(ver);
 }
 
 
-int main() 
+int main() {
 Graph g;
 
 return 0;
