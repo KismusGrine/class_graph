@@ -5,36 +5,40 @@
 using namespace std;
 
 class Graph {
-vector<list<int» Vertex;
-int v;
-int e;
+    vector<list<int>> Vertex;
 
+// Количество вершин и ребер/дуг
+    int count_vertex;
+    int count_edge;
+
+// Конструкторы
 public:
-Graph();
-Graph(int num);
-Graph(int **A,int n);
+    Graph();
 
-void Add_Edge(int s, int f);
+    Graph(int num);
+
+    Graph(int **A, int n);
+
+    void Add_Edge(int s, int f);
 
 };
 
 Graph::Graph() {
-e = 0;
-v = 0;
+    count_edge = 0;
+    count_vertex = 0;
 }
+
 Graph::Graph(int num) {
-v = num;
-e = 0;
-list<int> ver;
-for(int i = 0; i < num; i++)
-Vertex.push_back(ver);
+    count_vertex = num;
+    count_edge = 0;
+    list<int> ver;
+    for (int i = 0; i < num; i++)
+        Vertex.push_back(ver);
 }
 
 
 int main() {
-Graph g;
+    Graph g;
 
-return 0;
+    return 0;
 }
-
-Ещё
