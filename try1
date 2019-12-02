@@ -31,10 +31,8 @@ Vertex.push_back(ver);
 }
 
 
-int main() {
+int main() 
 Graph g;
 
 return 0;
 }
-
-Ещё
