@@ -1,0 +1,40 @@
+#include <iostream>
+#include <vector>
+#include <list>
+
+using namespace std;
+
+class Graph {
+vector<list<int» Vertex;
+int v;
+int e;
+
+public:
+Graph();
+Graph(int num);
+Graph(int **A,int n);
+
+void Add_Edge(int s, int f);
+
+};
+
+Graph::Graph() {
+e = 0;
+v = 0;
+}
+Graph::Graph(int num) {
+v = num;
+e = 0;
+list<int> ver;
+for(int i = 0; i < num; i++)
+Vertex.push_back(ver);
+}
+
+
+int main() {
+Graph g;
+
+return 0;
+}
+
+Ещё
