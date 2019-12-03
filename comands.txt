@@ -1,6 +1,6 @@
 git clone ... - клонирует рeпозиторий на комп
-git pull origin (master) - скачивает актуальный репозиторий с сервера (или только ветку master)
-git push origin (master) - отправляет все ветки локального репозитория на удаленный (или только ветку master)
+git pull origin (master / HEAD) - скачивает актуальный репозиторий с сервера (или только ветку master / текущую ветку)
+git push origin (master / HEAD) - отправляет все ветки локального репозитория на удаленный (или только ветку master / текущую ветку)
 
 git branch new_feature - создает новую ветку
 git checkout new_feature - начинает работать с веткой new_feature
