@@ -1,18 +1,1 @@
-git clone ... - клонирует рeпозиторий на комп
-git pull origin (master) - скачивает актуальный репозиторий с сервера (или только ветку master)
-git push origin (master) - отправляет все ветки локального репозитория на удаленный (или только ветку master)
-
-git branch new_feature - создает новую ветку
-git checkout new_feature - начинает работать с веткой new_feature
-git status - выводит название ветки в которой идет работа
-git branch -d(-D) some_branch - удаляет ветку после мерджа (тупиковая ветвь)
-git merge new_feature - мержит ветку new_feature в текущую (делать это надо из ветки master)
-
-
-git add text.txt - добавляет файл в локальный репозиторий, в текущую ветку 
-git rm text.txt - удаляет файл text.txt
-git commit -m "Add test.txt" (-a - откроется редактор)- фиксирует изменения и файлы, которые были отправлены (git add ...). Выводит сообщение "Add test.txt"
-
-echo 21 > text.txt - печать 21 в файл text
-
-
+21
