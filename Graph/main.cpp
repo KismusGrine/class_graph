@@ -15,15 +15,22 @@ class Graph {
 // Конструкторы
 public:
     Graph();
+
     Graph(int num);
+
     Graph(int **A, int num);
 
     void Add_vertex();
+
     void Add_edge(int s, int f);
+
     void Delete_vertex();
+
+    // Сделать
     void Delete_edge();
 
     void bfs();
+
     void dfs();
 };
 
@@ -44,6 +51,10 @@ Graph::Graph(int num) {
 Graph::Graph(int **A, int num) {
     count_vertex = num;
     count_edge = 0;
+}
+
+void Graph::Delete_edge() {
+
 }
 
 int main() {
