@@ -15,9 +15,7 @@ class Graph {
 // Конструкторы
 public:
     Graph();
-
     Graph(int num);
-
     Graph(int **A, int num);
 
     void Add_vertex();
