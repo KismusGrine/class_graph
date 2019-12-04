@@ -5,7 +5,8 @@
 using namespace std;
 
 class Graph {
-    vector<list<int>> Vertex;
+    // Список смежности
+    vector <list<int>> Vertex;
 
 // Количество вершин и ребер/дуг
     int count_vertex;
@@ -19,8 +20,13 @@ public:
 
     Graph(int **A, int num);
 
-    void Add_Edge(int s, int f);
+    void Add_vertex();
+    void Add_edge(int s, int f);
+    void Delete_vertex();
+    void Delete_edge();
 
+    void bfs();
+    void dfs();
 };
 
 Graph::Graph() {
@@ -40,12 +46,10 @@ Graph::Graph(int num) {
 Graph::Graph(int **A, int num) {
     count_vertex = num;
     count_edge = 0;
-
-
 }
 
-
 int main() {
+
 
     return 0;
 }

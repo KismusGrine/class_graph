@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/User/source/Clion/Graph/main.cpp" "C:/Users/User/source/Clion/Graph/cmake-build-debug/CMakeFiles/Graph.dir/main.cpp.obj"
+  "C:/Users/User/source/Clion/Cplusplus/test/class_graph/Graph/main.cpp" "C:/Users/User/source/Clion/Cplusplus/test/class_graph/Graph/cmake-build-debug/CMakeFiles/Graph.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
