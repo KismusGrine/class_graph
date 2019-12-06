@@ -6,7 +6,7 @@ using namespace std;
 
 class Graph {
     // Список смежности
-    vector <list<int>> Vertex;
+    vector <list<int>> Vertex; // Не работает!!! list не тип переменных, а структура
 
 // Количество вершин и ребер/дуг
     int count_vertex;
